@@ -41,19 +41,22 @@ function my_keydown(e)
 			up();
 			console.log("up");
 		}
-	
+	keyPressed = e.keyCode;
+	console.log(keyPressed);
 		if(keyPressed == '40')
 		{
 			down();
 			console.log("down");
 		}
-		
+	keyPressed = e.keyCode;
+	console.log(keyPressed);
 		if(keyPressed == '37')
 		{
 			left();
 			console.log("left");
 		}
-	
+	keyPressed = e.keyCode;
+	console.log(keyPressed);
 		if(keyPressed == '39')
 		{
 			right();
